@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "Google Translate",
+	"description": "Bread man learns how to make extension",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": ["tabs"],
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Go to Dev.Opera!"
+	}
+}
